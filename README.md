@@ -10,11 +10,6 @@
 
 武汉纺织大学 · 电子信息工程 · Embedded / FPGA / Robotics
 
-<br>
-<br>
-
-<img src="https://count.getloli.com/get/@XingChen?theme=rule34" alt="Moe Counter" />
-
 </div>
 
 ---
