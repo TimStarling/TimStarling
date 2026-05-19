@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - ".github/workflows/snake.yml"
+      - "README.md"
   schedule:
     - cron: "0 16 * * *"
   workflow_dispatch:
@@ -23,8 +24,8 @@ jobs:
         with:
           github_user_name: TimStarling
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
