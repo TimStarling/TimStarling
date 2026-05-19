@@ -31,13 +31,20 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=TimStarling&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" alt="Stats" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com?user=TimStarling&theme=transparent&hide_border=true" alt="Streak" />
+<img src="https://img.shields.io/badge/Focus-Embedded%20Systems-2F80ED?style=for-the-badge" alt="Embedded Systems" />
+<img src="https://img.shields.io/badge/FPGA-Verilog%20%2F%20Quartus-7B61FF?style=for-the-badge" alt="FPGA" />
+<img src="https://img.shields.io/badge/Robotics-ROS2%20%2F%20Control-FF6B6B?style=for-the-badge" alt="Robotics" />
+<img src="https://img.shields.io/badge/Linux-RK%20%2F%20Raspberry%20Pi-FCC624?style=for-the-badge" alt="Linux Embedded" />
 
 <br>
+<br>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TimStarling&layout=compact&theme=transparent&hide_border=true" alt="Top Langs" />
-<img height="165" src="https://github-profile-trophy.vercel.app/?username=TimStarling&theme=flat&no-frame=true&column=4&margin-w=8&margin-h=8" alt="Trophy" />
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com?user=TimStarling&theme=transparent&hide_border=true" alt="GitHub Streak" />
+
+<br>
+<br>
+
+<img src="https://github-profile-trophy.vercel.app/?username=TimStarling&theme=flat&no-frame=true&column=4&margin-w=8&margin-h=8" alt="GitHub Trophy" />
 
 </div>
 
