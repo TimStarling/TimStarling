@@ -4,7 +4,7 @@
 
 <br>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6AA9FF&center=true&vCenter=true&random=false&width=760&lines=Hi%2C+I%27m+XingChen;Embedded+Systems+%2F+FPGA+%2F+Robotics;Linux+Embedded+%26+AI+Agent+Workflow;Keep+building%2C+keep+debugging" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=1000&color=6AA9FF&center=true&vCenter=true&random=false&width=760&lines=Hi%2C+I%27m+XingChen;Embedded+Systems+%2F+FPGA+%2F+Robotics;Linux+Embedded+%26+AI+Agent+Workflow;Keep+building%2C+keep+debugging" alt="Typing SVG" />
 
 <br>
 
