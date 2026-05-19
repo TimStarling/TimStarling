@@ -87,7 +87,11 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/TimStarling/TimStarling/output/github-contribution-grid-snake.svg" alt="github contribution grid snake animation" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TimStarling/TimStarling/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TimStarling/TimStarling/output/github-snake.svg" />
+  <img src="https://raw.githubusercontent.com/TimStarling/TimStarling/output/github-snake.svg" alt="github contribution snake animation" />
+</picture>
 
 </div>
 
