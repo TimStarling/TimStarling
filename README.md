@@ -1,3 +1,9 @@
+<div align="right">
+
+[中文](README.md) | [English](README_EN.md)
+
+</div>
+
 <div align="center">
 
 <img width="760" src="./53adfd357d34854cd78f8cbdcdfc0e3627534330.png" alt="XingChen" />
