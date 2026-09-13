@@ -22,10 +22,11 @@ Wuhan Textile University · Electronic Information Engineering · Embedded / FPG
 
 ### About Me
 
-I am an undergraduate student in Electronic Information Engineering, focusing on embedded systems, FPGA development, robot control, Linux embedded development, and AI-agent-assisted engineering workflows. I prefer turning competition projects, debugging notes, and real implementation experience into reusable engineering records.
+I am an undergraduate student in Electronic Information Engineering, focusing on embedded systems, FPGA development, edge vision inference, robot control, and embedded Linux. My current work brings together industrial defect detection training, edge inference, and ARM–FPGA cooperative computing. I also use AI agents to support code exploration, debugging, and documentation.
 
 - Embedded systems: STM32 / GD32 / Renesas MCU development, peripheral drivers, BSP bring-up, schematic and datasheet based debugging.
 - FPGA: Verilog, Quartus, and ModelSim for communication protocols, state machines, robotic-arm control, and vision-control integration.
+- Edge vision: organizing PP-YOLO training and inference code with PaddleDetection and Paddle Lite, and tracing convolution subgraphs through CMA shared memory and CNN register control on Cyclone V.
 - Linux embedded: Raspberry Pi, Orange Pi, and Rockchip platforms, including MIPI, Bluetooth, WiFi, UART, and I2C integration.
 - Robotics: FPGA robotic-arm control, ROS2 humanoid robot task systems, industrial defect detection and sorting systems.
 - Hardware and simulation: schematic/PCB design with JLC EDA, circuit analysis and simulation with MATLAB, Simulink, and TINA.
@@ -34,6 +35,7 @@ I am an undergraduate student in Electronic Information Engineering, focusing on
 
 ### Featured Projects
 
+- **[DefectFlow-FPGA](https://github.com/TimStarling/Defectflow-FPGA) · Industrial Surface Defect Detection**: an Intel Cyclone V SoC engineering collection combining a PP-YOLO R18VD detector, PaddleDetection training code, a custom Paddle Lite backend, the FPGA SDK, and a CMA driver. Supported convolution subgraphs can run on the CNN hardware alongside ARM processing; the application outputs defect labels, confidence scores, bounding boxes, and annotated images. Includes bilingual documentation, build instructions, and offline checks, with source validation distinguished from board validation. `C/C++` · `Python` · `Verilog` · `Quartus` · `Paddle Lite`
 - [CCIC-Robotarm](https://github.com/TimStarling/CCIC-Robotarm): FPGA-based robotic-arm control with vision linkage, UART command delivery, servo scheduling, and MATLAB-generated inverse-kinematics coordinate data.
 - [Unidirectional-power-analyzer](https://github.com/TimStarling/Unidirectional-power-analyzer): Renesas-based single-phase power analyzer with sampling, frequency-domain analysis, lightweight scheduling, and power-quality monitoring logic.
 - [CIMC](https://github.com/TimStarling/CIMC): Industrial embedded competition project based on GD32, covering ADC, USART, GPIO, OLED, TF-card logging, RTC, Flash parameters, and system self-test.

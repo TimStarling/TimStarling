@@ -22,10 +22,11 @@
 
 ### 👋 关于我
 
-电子信息工程本科在读，主要关注嵌入式系统、FPGA、机器人控制、Linux 嵌入式开发和 AI Agent 工作流。比起把技术名词堆在一起，我更习惯把比赛、项目和调试中真正用过的方案整理成可复用的工程记录。✨
+电子信息工程本科在读，主要关注嵌入式系统、FPGA、边缘视觉推理、机器人控制和 Linux 嵌入式开发。目前围绕工业缺陷检测，整理从模型训练、端侧推理到 ARM–FPGA 协同计算的工程链路，也使用 AI Agent 辅助代码阅读、调试与文档维护。✨
 
 - ⚙️ 嵌入式方向：熟悉 STM32 / GD32 / Renesas MCU 开发，能基于原理图、数据手册和 STM32CubeIDE 完成外设驱动与 BSP 调试
 - 🔌 FPGA 方向：使用 Verilog、Quartus 和 ModelSim 做通信协议、状态机、机械臂控制与视觉联动调试
+- 👁️ 边缘视觉：围绕 PP-YOLO、PaddleDetection 和 Paddle Lite 整理缺陷检测训练与推理工程，梳理 Cyclone V 上卷积子图、CMA 共享内存和 CNN 寄存器控制的调用关系
 - 🐧 Linux 方向：在树莓派、香橙派和 RK 系列平台上做过 MIPI、蓝牙、WiFi、UART、I2C 等模块适配与应用调试
 - 🤖 机器人方向：做过 FPGA 机械臂控制、ROS2 人形机器人任务系统、工业流水线缺陷检测与分拣系统
 - 🧪 硬件与仿真：使用立创 EDA 绘制原理图 / PCB，使用 MATLAB、Simulink、TINA 做电路分析与仿真
@@ -70,6 +71,7 @@
 <img src="https://img.shields.io/badge/RTOS-RT--Thread-00A98F?style=flat-square" alt="RT-Thread" />
 <img src="https://img.shields.io/badge/Linux-RK%20%2F%20Raspberry%20Pi-FCC624?style=flat-square" alt="Linux Embedded" />
 <img src="https://img.shields.io/badge/Robot-ROS2%20%2F%20Control-FF6B6B?style=flat-square" alt="Robotics" />
+<img src="https://img.shields.io/badge/Vision-PP--YOLO%20%2F%20Paddle%20Lite-00A6A6?style=flat-square" alt="PP-YOLO and Paddle Lite" />
 <img src="https://img.shields.io/badge/AI-Codex%20%2F%20Cursor-111827?style=flat-square" alt="AI Agent" />
 
 </div>
@@ -77,6 +79,9 @@
 ---
 
 ### 🚀 代表项目
+
+- 🔍 **DefectFlow-FPGA · 工业表面缺陷检测**：基于 Intel Cyclone V SoC，汇总 PP-YOLO R18VD 检测应用、PaddleDetection 训练代码、定制 Paddle Lite 后端、FPGA SDK 和 CMA 驱动。通过 ARM 与 FPGA 协同处理，支持将卷积子图交给 CNN 硬件执行；应用输出缺陷类别、置信度、位置框和标注图。仓库提供中英文文档、构建说明及离线检查工具，并区分源码验证与上板验证。<br>
+  [Defectflow-FPGA](https://github.com/TimStarling/Defectflow-FPGA) · `C/C++` `Python` `Verilog` `Quartus` `Paddle Lite`
 
 - 🤖 机械臂控制系统：基于 FPGA 实现视觉与机械臂联动，使用 Verilog 编写控制状态机，通过串口接收视觉信号，并用 MATLAB 生成逆运动学坐标数据  
   [CCIC-Robotarm](https://github.com/TimStarling/CCIC-Robotarm)
